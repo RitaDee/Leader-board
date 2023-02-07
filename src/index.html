@@ -8,13 +8,16 @@
     <script src="https://kit.fontawesome.com/70657c6fc0.js" crossorigin="anonymous"></script>
   </head>
   <body>
-     <h1>Leaderboard</h1>
-
-     <div id="container">
-      <div id="recent-score">
-        <div id="recent-title">
-          <p>Recent scores</p>
-           <button>Refresh</button>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+     
+     <section id="main-container">
+     <div class="container">
+      <div class="recent-score">
+        <div class="recent-title">
+          <h2>Recent scores</h2>
+           <button class="refresh" type="reset">Refresh</button>
         </div>
         <div id="recent-list">
           <ul>
@@ -30,12 +33,13 @@
       </div>
       <div id="add-score">
         <h2>Add your score</h2>
-        <form id="form-score">
-          <input type="text" placeholder="Your name" required>
-          <input type="text" placeholder="Your score" required>
+        <form class="form-score">
+          <input type="text" placeholder="Your name" required class="name">
+          <input type="text" placeholder="Your score" required class="score">
           <button id="btn-submit" type="submit">Submit</button>
         </form>
       </div>
      </div>
+    </section>
   </body>
 </html>

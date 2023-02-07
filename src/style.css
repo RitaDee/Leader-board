@@ -2,11 +2,89 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
-  width: 100%;
   background-color: whitesmoke;
 }
 
- 
+header {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+}
+
+.recent-score {
+  width: 25%;
+  padding-left: 2rem;
+}
+
+.recent-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 24px;
+  justify-content: space-between;
+}
+
+#add-score {
+  padding-left: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: auto;
+  padding: 0.5em;
+  border: 2px solid black;
+}
+
+.refresh {
+  height: 24px;
+  width: 80px;
+  margin-top: 0.5rem;
+  border: 2px solid black;
+}
+
+#btn-submit {
+  width: 40%;
+  border: 2px solid black;
+  align-self: flex-end;
+}
+
+#recent-list {
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+ul {
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+ul li {
+  width: 17.5rem;
+}
+
+ul li:nth-child(even) {
+  background-color: gainsboro;
+}
