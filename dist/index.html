@@ -4,10 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leadership Board</title>
+    <title>Leader Board</title>
     <script src="https://kit.fontawesome.com/70657c6fc0.js" crossorigin="anonymous"></script>
   <script defer src="main.js"></script></head>
   <body>
-     <h1>Hello world!</h1>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+     
+     <section id="main-container">
+     <div class="container">
+      <div class="recent-score">
+        <div class="recent-title">
+          <h2>Recent scores</h2>
+           <button class="refresh" type="reset">Refresh</button>
+        </div>
+
+        <div id="recent-list">
+          <ul class="score-list"></ul>
+        </div>
+      </div>
+
+      <div id="add-score">
+        <h2>Add your score</h2>
+        <form class="form-score">
+          <input type="text" placeholder="Your name" required class="name">
+          <input type="text" placeholder="Your score" required class="score">
+          <button id="btn-submit" type="submit">Submit</button>
+        </form>
+      </div>
+     </div>
+    </section>
   </body>
 </html>

@@ -105,7 +105,6 @@ After you're finished please remove all the comments and instructions!
 - **Hardcode the name and scores**
 - **Use Es6 import**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->

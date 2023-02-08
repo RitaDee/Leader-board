@@ -83,8 +83,15 @@ ul {
 
 ul li {
   width: 17.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 
 ul li:nth-child(even) {
   background-color: gainsboro;
+}
+
+span {
+  display: block;
 }
