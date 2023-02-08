@@ -104,7 +104,11 @@ After you're finished please remove all the comments and instructions!
 - **Create a webpack**
 - **Hardcode the name and scores**
 - **Use Es6 import**
-
+- **Use API documentation**
+- **Implement the "Refresh" button that will get all scores for a game created from the API**
+- **Implement the form "Submit" button that will save a score for the game**
+- **Use arrow functions instead of the function keyword**
+- **Use async and await JavaScript features to consume the API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

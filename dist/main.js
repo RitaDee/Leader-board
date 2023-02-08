@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  padding: 0;\\n  margin: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  width: 100%;\\n  background-color: whitesmoke;\\n}\\n\\n \", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  padding: 0;\\n  margin: 0;\\n  box-sizing: border-box;\\n  list-style-type: none;\\n}\\n\\nbody {\\n  background-color: whitesmoke;\\n}\\n\\nheader {\\n  padding: 2rem;\\n}\\n\\nh2 {\\n  font-size: 2rem;\\n  margin-bottom: 12px;\\n}\\n\\n.container {\\n  display: flex;\\n  width: 90%;\\n}\\n\\n.recent-score {\\n  width: 25%;\\n  padding-left: 2rem;\\n}\\n\\n.recent-title {\\n  width: 100%;\\n  display: flex;\\n  justify-content: space-between;\\n}\\n\\n#main-container {\\n  width: 100%;\\n  display: flex;\\n  flex-direction: column;\\n  margin: 12px 24px;\\n  justify-content: space-between;\\n}\\n\\n#add-score {\\n  padding-left: 2rem;\\n}\\n\\nform {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 20px;\\n}\\n\\ninput {\\n  width: auto;\\n  padding: 0.5em;\\n  border: 2px solid black;\\n}\\n\\n.refresh {\\n  height: 24px;\\n  width: 80px;\\n  margin-top: 0.5rem;\\n  border: 2px solid black;\\n}\\n\\n#btn-submit {\\n  width: 40%;\\n  border: 2px solid black;\\n  align-self: flex-end;\\n}\\n\\n#recent-list {\\n  border: 2px solid black;\\n  border-radius: 2px;\\n}\\n\\nul {\\n  margin: 0.5rem;\\n  font-weight: 500;\\n}\\n\\nul li {\\n  width: 17.5rem;\\n  display: flex;\\n  justify-content: space-between;\\n  padding: 0.5rem;\\n}\\n\\nul li:nth-child(even) {\\n  background-color: gainsboro;\\n}\\n\\nspan {\\n  display: block;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_fetch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/fetch.js */ \"./src/modules/fetch.js\");\n/* harmony import */ var _modules_post_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/post.js */ \"./src/modules/post.js\");\n\n\n\n\nwindow.onload = _modules_fetch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\nconst userName = document.querySelector('.name');\nconst userScore = document.querySelector('.score');\nconst refreshButton = document.querySelector('.refresh');\nconst formSubmit = document.querySelector('.form-score');\n\nrefreshButton.addEventListener('click', () => {\n  (0,_modules_fetch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\nformSubmit.addEventListener('submit', (e) => {\n  e.preventDefault();\n  const name = userName.value;\n  const score = userScore.value;\n  (0,_modules_post_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(name, score);\n  formSubmit.reset();\n});\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/api.js":
+/*!****************************!*\
+  !*** ./src/modules/api.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/k6Er6XrODofYH8lFHEMj/scores';\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (url);\n\n\n//# sourceURL=webpack://webpack-demo/./src/modules/api.js?");
+
+/***/ }),
+
+/***/ "./src/modules/dynamic-page.js":
+/*!*************************************!*\
+  !*** ./src/modules/dynamic-page.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst scoreSheet = document.querySelector('.score-list');\n\nconst match = (item) => {\n  scoreSheet.innerHTML += `\n    <li class=\"dynamic\">\n    <span>${item.user}</span>\n    <span>${item.score} points</span>\n    </li>`;\n};\n\nconst showScores = (obj) => {\n  scoreSheet.innerHTML = '';\n  const scores = obj.result;\n  scores.sort((a, b) => b.score - a.score);\n  scores.forEach(match);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (showScores);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/dynamic-page.js?");
+
+/***/ }),
+
+/***/ "./src/modules/fetch.js":
+/*!******************************!*\
+  !*** ./src/modules/fetch.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/modules/api.js\");\n/* harmony import */ var _dynamic_page_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dynamic-page.js */ \"./src/modules/dynamic-page.js\");\n\n\n\nconst getAllScores = async () => {\n  await fetch(\n    _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n  )\n    .then((response) => response.json())\n    .then((json) => (0,_dynamic_page_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(json));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getAllScores);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/fetch.js?");
+
+/***/ }),
+
+/***/ "./src/modules/post.js":
+/*!*****************************!*\
+  !*** ./src/modules/post.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/modules/api.js\");\n/* harmony import */ var _fetch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetch.js */ \"./src/modules/fetch.js\");\n\n\n\nconst postScore = async (name, score) => {\n  await fetch(\n    _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n    {\n      method: 'POST',\n      body: JSON.stringify({\n        user: name,\n        score,\n      }),\n      headers: {\n        'Content-type': 'application/json; charset=UTF-8',\n      },\n    },\n  )\n    .then((response) => response.json())\n    .then(() => (0,_fetch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postScore);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/post.js?");
 
 /***/ })
 
