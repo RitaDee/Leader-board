@@ -12,11 +12,25 @@ body {
   width: 100%;
   color: azure;
   font-family: "montserrat", sans-serif;
+  transition: background-color 0.5s ease-in-out;
 }
 
-section {
-  background-color: #9c27b0;
-  /* border-radius: 4rem; */
+@keyframes colorchange {
+  0% {
+    background-color: #ffc107;
+  }
+
+  50% {
+    background-color: #40c4ff;
+  }
+
+  100% {
+    background-color: #ffc107;
+  }
+}
+
+body:hover {
+  animation: colorchange 5s alternate infinite;
 }
 
 header {
@@ -53,6 +67,7 @@ h2 {
 .container {
   display: flex;
   width: 100%;
+  padding: 2rem;
 }
 
 .recent-score {
@@ -67,7 +82,9 @@ h2 {
 }
 
 #main-container {
-  width: 90%;
+  background-color: #9c27b0;
+  border-radius: 3rem;
+  width: 95%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -96,7 +113,12 @@ input {
   height: 24px;
   width: 30%;
   margin-top: 0.5rem;
-  border: 2px solid black;
+  border-radius: 2px solid;
+  cursor: pointer;
+}
+
+.refresh:hover {
+  background-color: #ffc107;
 }
 
 #btn-submit {
@@ -105,6 +127,11 @@ input {
   border: 2px solid white;
   align-self: flex-end;
   background-color: #9c27b0;
+  cursor: pointer;
+}
+
+#btn-submit:hover {
+  background-color: #ffc107;
 }
 
 #recent-list {
