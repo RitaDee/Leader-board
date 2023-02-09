@@ -115,7 +115,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">(https://ritadee.github.io/Leader-board/)</a>
+## 🚀 Live Demo <a name="live-demo">https://ritadee.github.io/Leader-board/dist</a>
 
 <!-- > Add a link to your deployed project. -->
 
