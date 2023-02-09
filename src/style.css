@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -6,25 +8,70 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #ffc107;
+  width: 100%;
+  color: azure;
+  font-family: "montserrat", sans-serif;
+  transition: background-color 0.5s ease-in-out;
+}
+
+@keyframes colorchange {
+  0% {
+    background-color: #ffc107;
+  }
+
+  50% {
+    background-color: #40c4ff;
+  }
+
+  100% {
+    background-color: #ffc107;
+  }
+}
+
+body:hover {
+  animation: colorchange 5s alternate infinite;
 }
 
 header {
   padding: 2rem;
 }
 
+h1 {
+  color: #2f41ab;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 h2 {
-  font-size: 2rem;
+  font-size: 24px;
   margin-bottom: 12px;
 }
 
 .container {
   display: flex;
-  width: 90%;
+  width: 100%;
+  padding: 2rem;
 }
 
 .recent-score {
-  width: 25%;
+  width: 36%;
   padding-left: 2rem;
 }
 
@@ -35,15 +82,19 @@ h2 {
 }
 
 #main-container {
-  width: 100%;
+  background-color: #9c27b0;
+  border-radius: 3rem;
+  width: 95%;
   display: flex;
   flex-direction: column;
-  margin: 12px 24px;
+  margin: 0 auto;
   justify-content: space-between;
+  column-gap: 100px;
 }
 
 #add-score {
-  padding-left: 2rem;
+  padding-left: 16%;
+  height: 30%;
 }
 
 form {
@@ -55,24 +106,35 @@ form {
 input {
   width: auto;
   padding: 0.5em;
-  border: 2px solid black;
+  border-radius: 4px;
 }
 
 .refresh {
   height: 24px;
-  width: 80px;
+  width: 30%;
   margin-top: 0.5rem;
-  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.refresh:hover {
+  background-color: #ffc107;
 }
 
 #btn-submit {
+  color: azure;
   width: 40%;
-  border: 2px solid black;
+  border-radius: 2px;
   align-self: flex-end;
+  background-color: #9c27b0;
+  cursor: pointer;
+}
+
+#btn-submit:hover {
+  background-color: #ffc107;
 }
 
 #recent-list {
-  border: 2px solid black;
   border-radius: 2px;
 }
 
@@ -82,14 +144,16 @@ ul {
 }
 
 ul li {
-  width: 17.5rem;
+  width: 20rem;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
+  font-size: 24px;
 }
 
 ul li:nth-child(even) {
   background-color: gainsboro;
+  color: black;
 }
 
 span {

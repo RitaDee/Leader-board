@@ -109,12 +109,13 @@ After you're finished please remove all the comments and instructions!
 - **Implement the form "Submit" button that will save a score for the game**
 - **Use arrow functions instead of the function keyword**
 - **Use async and await JavaScript features to consume the API**
+- **improve the look and feel of the application, adding the styles**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">(https://ritadee.github.io/Leader-board/)</a>
+## 🚀 Live Demo <a name="live-demo">https://ritadee.github.io/Leader-board/dist</a>
 
 <!-- > Add a link to your deployed project. -->
 
