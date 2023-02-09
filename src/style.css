@@ -106,14 +106,14 @@ form {
 input {
   width: auto;
   padding: 0.5em;
-  border-radius: 2px solid black;
+  border-radius: 4px;
 }
 
 .refresh {
   height: 24px;
   width: 30%;
   margin-top: 0.5rem;
-  border-radius: 2px solid;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -124,7 +124,7 @@ input {
 #btn-submit {
   color: azure;
   width: 40%;
-  border: 2px solid white;
+  border-radius: 2px;
   align-self: flex-end;
   background-color: #9c27b0;
   cursor: pointer;
