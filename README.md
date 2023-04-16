@@ -19,11 +19,7 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
 - FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -208,8 +204,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
  👤**Rita Nkem Daniel**
@@ -218,10 +212,7 @@ Example:
 - Twitter: [@durdana_dee](https:https://twitter.com/durdana_dee)
 - LinkedIn: [LinkedIn](https:https://www.linkedin.com/in/rita-daniel/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -245,12 +236,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-[]() has been of tremendous help so far.
+[Chukwuemeka Ochuba](https://github.com/donmark2k/) has been of tremendous help so far.
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -272,10 +261,7 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
   - [yes]
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
