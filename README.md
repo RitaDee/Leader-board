@@ -51,8 +51,6 @@ REQUIRED SECTIONS:
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Leaderboard] <a name="about-project"></a>
 
 **[Leaderboard]** is a project designed to display your recent scores.
@@ -65,20 +63,14 @@ REQUIRED SECTIONS:
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project. -->
-
  <details>
   <summary>Client</summary>
   <ul>
     <li><a href="#">Index.html</a></li>
         <li><a href="#">main.js</a></li>
             <li><a href="#">Style.css</a></li>
-
-
   </ul>
 </details> 
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -96,21 +88,13 @@ REQUIRED SECTIONS:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 <a name="live-demo" href="https://ritadee.github.io/Leader-board/dist">Live Demo</a>
 
-<!-- > Add a link to your deployed project. -->
-
-<!-- - [Live Demo Link](https://ritadee.github.io/Leader-board/) -->
+[Live Demo Link](https://ritadee.github.io/Leader-board/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -121,13 +105,6 @@ To get a local copy up and running, follow these steps.
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -155,7 +132,6 @@ Example command:
   cd my-project
   npx install
 ```
---->
 
 ### Usage
 
@@ -163,28 +139,11 @@ To run the project, execute the following command:
 - Open the cloned folder on the VS code
 - Open the live server
 
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
 To run tests, run the following command:
 - To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
 - To check for javascript error, run npx eslint .
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -222,8 +181,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -237,7 +194,8 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 [Chukwuemeka Ochuba](https://github.com/donmark2k/) has been of tremendous help so far.
-If you like this project...
+
+- Give a ⭐️ if you like this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,11 +205,7 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Are you sure that you are owner of this work]**
 
