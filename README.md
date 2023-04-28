@@ -90,7 +90,7 @@ REQUIRED SECTIONS:
 
 ## 🚀 <a name="live-demo" href="https://ritadee.github.io/Leader-board/dist">Live Demo</a>
 
-[Live Demo Link](https://ritadee.github.io/Leader-board/)
+[Live Demo Link](https://ritadee.github.io/Leader-board/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
