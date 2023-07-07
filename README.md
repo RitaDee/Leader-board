@@ -88,7 +88,7 @@ REQUIRED SECTIONS:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 <a name="live-demo" href="https://ritadee.github.io/Leader-board/dist">Live Demo</a>
+## 🚀 <a name="live-demo" href="https://leaderboardchart.netlify.app/">Live Demo</a>
 
 [Live Demo Link](https://ritadee.github.io/Leader-board/dist)
 
