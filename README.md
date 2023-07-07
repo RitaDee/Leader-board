@@ -90,7 +90,7 @@ REQUIRED SECTIONS:
 
 ## 🚀 <a name="live-demo" href="https://leaderboardchart.netlify.app/">Live Demo</a>
 
-[Live Demo Link](https://ritadee.github.io/Leader-board/dist)
+[Live Demo Link](https://leaderboardchart.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
